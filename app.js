@@ -1,0 +1,1 @@
+alert("insecured page go back please");
