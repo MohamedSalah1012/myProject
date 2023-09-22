@@ -1,7 +1,11 @@
 h1{
-color: darkblue;
+color: rgb(83, 20, 200);
 
 }
 body{
-    background-color: aquamarine;
+    background-color:rgb(212, 215, 215);
+    font-weight: 700;
+    text-align: center;
+    margin: 15px;
+    
 }
