@@ -1,0 +1,18 @@
+name: My Windows Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run a Windows command
+        run: |
+          echo "Hello, GitHub Actions on Windows!"
